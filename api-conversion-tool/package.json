@@ -1,0 +1,15 @@
+{
+  "name": "cyclr",
+  "version": "1.0.0",
+  "description": "Conversion tool for incoming response data from provider api",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest",
+    "test:dev": "jest --watchAll"
+  },
+  "author": "Joseph Lander",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}

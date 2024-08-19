@@ -1,0 +1,12 @@
+{
+  "name": "differentobjkeys",
+  "version": "1.0.0",
+  "description": "This script will return the keys and values of the second object that don't match the first.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

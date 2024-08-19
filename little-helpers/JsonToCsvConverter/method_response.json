@@ -1,0 +1,23 @@
+[
+  {
+    "model": "Samsung S7",
+    "chargers": "55",
+    "cases": "56",
+    "earphones": "57",
+    "scratched": "2"
+  },
+  {
+    "model": "Pixel XL",
+    "chargers": "77",
+    "cases": "78",
+    "earphones": "79",
+    "scratched": "4"
+  },
+  {
+    "model": "iPhone 7",
+    "chargers": "88",
+    "cases": "89",
+    "earphones": "90",
+    "scratched": "6"
+  }
+]

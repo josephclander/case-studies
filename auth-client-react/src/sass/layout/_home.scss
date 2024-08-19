@@ -1,0 +1,33 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+
+  &__pointing-icon {
+    font-size: 3rem;
+    animation: 2s bounce 2 alternate ease-in-out;
+    display: inline-block;
+    transform-origin: bottom center;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    translate: 0 0;
+    scale: 1;
+    rotate: 0deg;
+  }
+
+  50% {
+    translate: 0 -15px;
+    scale: 1.2;
+    rotate: 30deg;
+  }
+
+  100% {
+    translate: 0 0;
+    scale: 1;
+    rotate: 0deg;
+  }
+}

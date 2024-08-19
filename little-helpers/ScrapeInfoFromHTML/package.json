@@ -1,0 +1,17 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "Example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "jsdom": "^22.1.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "displayorder",
+  "version": "1.0.0",
+  "description": "Function to reorder the display chronologically",
+  "main": "DisplayOrder.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}

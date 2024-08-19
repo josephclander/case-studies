@@ -1,0 +1,57 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* .counter__container {
+  border: 1px solid rgb(33, 33, 33);
+  padding: 2rem;
+} */
+
+.counter__display {
+  padding: 1rem;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.counter__buttons {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.counter__increment,
+.counter__decrement {
+  color: white;
+  font-size: 2rem;
+  padding: 1.5rem;
+  display: grid;
+  place-content: center;
+  width: 2rem;
+  height: 2rem;
+  background-color: hsl(240, 68%, 65%);
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.counter__increment:hover,
+.counter__decrement:hover {
+  background-color: hsl(240, 68%, 80%);
+}
